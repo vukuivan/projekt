@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nogometni centar</title>
+    <meta name="description" content="Nogometni centar">
+    <meta name="keywords" content="Nogomet, centar, mali nogomet">
+    <meta name="author" content="Ivan Vukušić">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li> <a href="index.html">Naslovna</a></li>
+            <li> <a href="about.html">O nama</a></li>
+            <li><a href="gallery.html">Galerija</a></li>
+            <li> <a href="news.html">Novosti</a> </li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.112859606144!2d15.998558315534352!3d45.86905157910785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d9c786af97e5%3A0xf027eb7d9168a026!2sMarku%C5%A1eve%C4%8Dka%20cesta%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1610381848859!5m2!1shr!2shr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+			<form action="" id="contact_form" name="contact_form" method="POST">
+                <p>
+            <form action="#">
+                <!-- staviti poslije akciju za slanje -->
+                <label for="fname">Ime</label>
+                <input type="text" id="fname" name="firstname" placeholder="Vaše ime...">
+
+                <label for="lname">Prezime</label>
+                <input type="text" id="lname" name="lastname" placeholder="Vaše prezime...">
+
+                <label for="country">Država</label>
+                <select id="country" name="country">
+                    <option value="Hrvatska">Hrvatska</option>
+                    <option value="Slovenija">Slovenija</option>
+                    <option value="Bosna">Bosna</option>
+                </select>
+
+                <label for="subject">Poruka</label>
+                <textarea id="subject" name="subject" placeholder="Napišite poruku..." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p id="copyright">
+                &copy; 2021 Ivan Vukušić <a href="https://github.com/vukuivan/projekt"><img id="githubLogo"
+                        src="img/GitHub_Logo.png" title="Github" alt="Github"></a></a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
